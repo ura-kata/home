@@ -29,6 +29,10 @@ module.exports = {
           from: 'images/*',
           to: '',
         },
+        {
+          from: 'css/*',
+          to: '',
+        },
       ],
     }),
   ],
