@@ -1,6 +1,7 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -21,6 +22,18 @@ module.exports = {
       template: path.resolve(__dirname, 'src/template/index.html'),
       filename: 'index.html',
       title: 'ura-kata',
+    }),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: 'images/*',
+          to: '',
+        },
+        {
+          from: 'css/*',
+          to: '',
+        },
+      ],
     }),
   ],
   resolve: {
