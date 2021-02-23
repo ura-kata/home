@@ -21,7 +21,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/template/index.html'),
       filename: 'index.html',
-      title: 'ura-kata',
+      title: 'Ura-Kata',
     }),
     new CopyPlugin({
       patterns: [
