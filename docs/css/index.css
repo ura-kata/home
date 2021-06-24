@@ -34,7 +34,8 @@ img {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../images/music-1010703_1920.jpg") #002E66 no-repeat center center scroll;
+    background: url('../images/music-1010703_1920.jpg') #002e66 no-repeat center
+      center scroll;
     background-size: cover;
   }
 
@@ -129,13 +130,13 @@ img {
   text-align: center;
 }
 
-.social-icons ul>li {
+.social-icons ul > li {
   margin-left: 1rem;
   margin-right: 1rem;
   display: inline-block;
 }
 
-.social-icons ul>li>a {
+.social-icons ul > li > a {
   display: block;
   color: white;
   background-color: #158467;
@@ -161,18 +162,18 @@ img {
     width: auto;
   }
 
-  .social-icons ul>li {
+  .social-icons ul > li {
     display: block;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 2rem;
   }
 
-  .social-icons ul>li:last-child {
+  .social-icons ul > li:last-child {
     margin-bottom: 0;
   }
 
-  .social-icons ul>li>a {
+  .social-icons ul > li > a {
     transition: all 0.2s ease-in-out;
     font-size: 2rem;
     line-height: 4rem;
@@ -180,7 +181,7 @@ img {
     width: 4rem;
   }
 
-  .social-icons ul>li>a:hover {
+  .social-icons ul > li > a:hover {
     background-color: #065446;
   }
 }
